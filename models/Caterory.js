@@ -7,7 +7,7 @@ const Category = db.define('categories', {
     allowNull: false,
     primaryKey: true
   },
-  lastName: {
+  name: {
     type: DataTypes.STRING
   }
 });
